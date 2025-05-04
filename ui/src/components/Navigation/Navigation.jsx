@@ -8,9 +8,9 @@ const Navigation = () => {
     <nav className="bg-white flex justify-between items-center px-8 py-4 sticky top-0 z-50">
       <div>
         {/* logo */}
-        <a href="/" className="text-lg text-3xl font-semibold">ShopEase</a>
+        <a href="/" className="text-4xl font-semibold">ShopEase</a>
       </div>
-      <ul className="flex gap-8 text-gray-600 hover:text-black">
+      <ul className="flex text-lg gap-8 text-gray-600 hover:text-black">
         <li><a href="/">Shop</a></li>
         <li><a href="/">Men</a></li>
         <li><a href="/">Women</a></li>

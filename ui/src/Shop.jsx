@@ -4,6 +4,7 @@ import Category from "./components/Sections/Categories/Category";
 import NewArrivals from "./components/Sections/NewArrivals";
 import "./Shop.css";
 import content from './data/content.json'
+import Footer from "./components/Footer/Footer";
 
 function Shop() {
   return (
@@ -18,6 +19,7 @@ function Shop() {
           )
         })
       }
+      <Footer content={content?.footer}/>
     </>
   );
 }
