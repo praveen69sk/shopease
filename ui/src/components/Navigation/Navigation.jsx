@@ -25,11 +25,17 @@ const Navigation = () => {
           </div> 
         </div>
       </div>
-      <div>
-        <button><Wishlist /></button>
-        <button><AccountIcon /></button>
-        <button><CartIcon /></button>
+      <div className="flex flex-wrap items-center gap-4">
+        <ul className="flex gap-6">
+          <li><button><Wishlist /></button></li>
+          <li><button><AccountIcon /></button></li>
+          <li><button><CartIcon /></button></li>
+        </ul>
       </div>
+
+      
+        
+        
     </nav>
   );
 };
