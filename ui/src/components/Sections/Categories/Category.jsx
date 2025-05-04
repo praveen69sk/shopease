@@ -7,21 +7,21 @@ const Category = ({ title, data }) => {
     <>
       <SectionHeading title={title} />
       <div className="flex px-8">
-      {data &&
-        data?.map((item, index) => {
-          return (
-            <Card
-              key={item.title + index}
-              title={item.title}
-              image={item.image}
-              description={item.description}
-              actionArrow={true}
-              height={'280px'}
-              width={'240px'}
-            />
-          );
-        })}
-        </div>
+        {data &&
+          data?.map((item, index) => {
+            return (
+              <Card
+                key={item.title + index}
+                title={item.title}
+                image={item.image}
+                description={item.description}
+                actionArrow={true}
+                height={"240px"}
+                width={"200px"}
+              />
+            );
+          })}
+      </div>
     </>
   );
 };
